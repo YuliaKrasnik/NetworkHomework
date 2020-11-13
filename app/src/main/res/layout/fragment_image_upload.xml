@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:context=".ui.ImageUploadFragment">
+
+        <ImageView
+            android:id="@+id/image_view"
+            style="@style/image_view"
+            android:contentDescription="@string/content_description_image_view"
+            android:src="@drawable/ic_baseline_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_capture_image"
+            style="@style/btn"
+            android:text="@string/text_btn_capture_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_view" />
+
+        <Button
+            android:id="@+id/btn_open_image"
+            style="@style/btn"
+            android:text="@string/text_btn_open_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_capture_image" />
+
+        <TextView
+            android:id="@+id/tv_title_image"
+            style="@style/label_text"
+            android:text="@string/label_title_et"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_view"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/et_title_image"
+            style="@style/edit_text"
+            android:autofillHints="text"
+            android:hint="@string/hint_title_et"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/image_view"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title_image" />
+
+        <TextView
+            android:id="@+id/tv_description_image"
+            style="@style/label_text"
+            android:text="@string/label_description_et"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_view"
+            app:layout_constraintTop_toBottomOf="@id/et_title_image" />
+
+        <EditText
+            android:id="@+id/et_description_image"
+            style="@style/edit_text"
+            android:autofillHints="text"
+            android:hint="@string/et_description_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_view"
+            app:layout_constraintTop_toBottomOf="@+id/tv_description_image" />
+
+        <ImageButton
+            android:id="@+id/btn_send_image"
+            style="@style/image_button"
+            android:contentDescription="@string/content_description_btn_send"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_baseline_send" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

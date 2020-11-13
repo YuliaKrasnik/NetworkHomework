@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_image">150dp</dimen>
+    <dimen name="height_image">150dp</dimen>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="normalText">16sp</dimen>
+    <dimen name="vertical_margin">10dp</dimen>
+    <dimen name="smallText">14sp</dimen>
+    <dimen name="vertical_large_margin">20dp</dimen>
+    <dimen name="horizontal_large_margin">20dp</dimen>
+</resources>

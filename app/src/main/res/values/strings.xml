@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NetworkHomework</string>
+    <string name="content_description_image_view">ImageVIew</string>
+    <string name="text_btn_capture_image">Сделать фото</string>
+    <string name="text_btn_open_image">Открыть галерею</string>
+    <string name="label_title_et">Заголовок:</string>
+    <string name="hint_title_et">Добавить подпись…</string>
+    <string name="label_description_et">Описание:</string>
+    <string name="et_description_image">Добавить подпись…</string>
+    <string name="content_description_btn_send">button send image</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/vertical_margin</item>
+        <item name="android:layout_marginEnd">@dimen/horizontal_margin</item>
+    </style>
+
+    <style name="label_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/vertical_margin</item>
+        <item name="android:layout_marginEnd">@dimen/horizontal_margin</item>
+        <item name="android:textSize">@dimen/normalText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="edit_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/vertical_margin</item>
+        <item name="android:layout_marginEnd">@dimen/horizontal_margin</item>
+        <item name="android:layout_marginBottom">@dimen/vertical_margin</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textSize">@dimen/normalText</item>
+    </style>
+
+    <style name="image_view">
+        <item name="android:layout_width">@dimen/width_image</item>
+        <item name="android:layout_height">@dimen/height_image</item>
+        <item name="android:layout_marginStart">@dimen/horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/vertical_margin</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="image_button">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginEnd">@dimen/horizontal_large_margin</item>
+        <item name="android:layout_marginBottom">@dimen/vertical_large_margin</item>
+        <item name="android:background">@drawable/btn_send_image</item>
+    </style>
+</resources>
